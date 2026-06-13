@@ -1,13 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <meta charset="utf-8" />
+    <title>Aian Rosario | My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="MyPortfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#intro">About</a>
+        <a href="#projects">Projects</a>
+    </nav>
+
+    <div class="container">
+        <section id="hero" class="hero-section">
+            <div class="hero-profile-wrapper">
+                <img src="Black.png" alt="Profile" class="hero-profile-img">
+            </div>
+
+            <div class="hero-content">
+                <h3>Hello, I am</h3>
+                <h1>Rhod Aian Michael Rosario</h1>
+                <h3> a <span class="highlight-text">BSIT Student</span></h3>
+                <p>
+                    I'm a 2nd-year BSIT student who loves diving into logic and backend programming.
+                </p>
+
+                <div class="hero-socials">
+                    <a href="https://www.linkedin.com/in/ramrva/" target="_blank" class="social-icon"><i
+                            class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/ramrros" target="_blank" class="social-icon"><i
+                            class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/ramrros/" target="_blank" class="social-icon"><i
+                            class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ramrros/" target="_blank" class="social-icon"><i
+                            class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <a href="c:\Users\Administrator\Downloads\Aian_Rosario_VirtualAsisstant.pdf" target="_blank"
+                    class="btn-download">Download CV</a>
+            </div>
+        </section>
+
+        <section id="intro">
+            <div class="split-container">
+                <div class="split-card">
+                    <h3>About Me</h3>
+                    <p>
+                        I'm a 2nd-year BSIT student with a deep passion for technology, from understanding computer
+                        hardware to developing software solutions. My journey started hands-on, having built over 10
+                        custom PCs from scratch, which gave me a strong foundation in computer architecture and
+                        troubleshooting. On the software side, programming is where I feel most at home, with Python
+                        being my favorite language due to its versatility and simplicity. I enjoy solving problems
+                        through code and continuously challenging myself to learn new technologies. Currently, I'm
+                        expanding my skills beyond backend development by exploring front-end development and web
+                        design, allowing me to better understand both system functionality and user experience. My goal
+                        is to become a well-rounded developer who can build efficient, user-friendly applications while
+                        continuously learning and adapting in the ever-evolving tech industry
+                        <br><br>
+                        Outside academics, I'm also involved in competitive gaming, which has helped me develop
+                        teamwork, communication, discipline, and the ability to perform under pressure—skills that I
+                        believe are valuable both in technology and in professional environments.
+                    </p>
+                </div>
+
+                <div class="split-card">
+                    <h3>My Reflections</h3>
+                    <p>
+                        Through HCI, I learned that technology is not just about writing code or building systems—it's
+                        about creating experiences that people can easily understand and enjoy. This course introduced
+                        me to the principles of user-centered design, usability, accessibility, and effective interface
+                        design, helping me appreciate the importance of designing with the user in mind. Building and
+                        designing websites allowed me to see how technical functionality and user experience work
+                        together to create meaningful digital solutions. As someone passionate about programming and
+                        technology, HCI has encouraged me to think beyond the backend and consider how users interact
+                        with a system. It taught me that even the most powerful application can be ineffective if it is
+                        difficult to use. These lessons have inspired me to create interfaces that are intuitive,
+                        user-friendly, and accessible, and they will continue to guide me as I grow into a well-rounded
+                        developer.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages">
+            <h2>Technical Skills</h2>
+            <div class="languages-grid">
+                <div class="lang-card">
+                    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
+                        <img src="html.png" alt="HTML Logo">
+                    </a>
+                </div>
+
+                <div class="lang-card">
+                    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+                        <img src="css.png" alt="CSS Logo">
+                    </a>
+                </div>
+
+                <div class="lang-card">
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+                        <img src="js.png" alt="JavaScript Logo">
+                    </a>
+                </div>
+
+                <div class="lang-card">
+                    <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">
+                        <img src="python.png" alt="Python Logo">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>HCI Activities | Projects</h2>
+            <input type="checkbox" id="projectToggle" class="hidden-toggle">
+            <label for="projectToggle" class="portfolio-btn"></label>
+
+            <div class="gallery-container">
+                <img src="1stcode.png" alt="Project">
+                <img src="1stweb.png" alt="Project">
+                <img src="3rdweb.png" alt="Project">
+                <img src="code2.png" alt="Project">
+                <img src="code3.png" alt="Project">
+                <img src="Storyboard1.jpg" alt="Project">
+                <img src="Storyboard2.jpg" alt="Project">
+                <img src="Storyboard3.jpg" alt="Project">
+                <img src="web4.jpg" alt="Project">
+                <img src="web5.jpg" alt="Project">
+                <img src="2ndweb.png" alt="Project">
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2026 Aian Rosario | All rights reserved.</p>
+    </footer>
+
 </body>
 
 </html>
